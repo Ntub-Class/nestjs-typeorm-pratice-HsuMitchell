@@ -7,8 +7,9 @@ export class User {
     id: number;
 
     @Column()
-    address: string;
+    phone: string;
 
     @Column()
-    phone: number;
+    address: string;
+
 }
